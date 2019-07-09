@@ -4,74 +4,80 @@
     <meta charset="utf-8" />
     <title>My Portfolio</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="./assets/CSS/style.css">
-</head>
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-                    
-     
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-               </button>
-           <a class="navbar-brand" href="./index.html">Adam Miller</a>
-           </div>
-                 
-     
-       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                       
-       <ul class="nav navbar-nav navbar-right">
-           <li><a href="./index.html">Index</a></li>
-           <li><a href="./portfolio.html">Portfolio</a></li>
-           <li><a href="./contact.html">Contact</a></li>
+    <header id="masthead">
+    <div class="container">   
+<a href="index.html" id="logo"> Adam Miller</a>
 
-       </div>
-       </nav>
+<nav>
+    <a href="index.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
 
+</nav>
+</div> 
+    </header>
 
-       <div class="container">
-           <div class="row">
+<div id="main-container" class="container">
 
+<section class="main-container">
+    <h1>Portfolio</h1>
+
+    <div class= "work">
+    <img src="http://lorempixel.com/output/technics-q-c-400-200-1.jpg"
+    class="author-image" alt="Hangman">
+    <h3>Hangman</h3>
+</div>
+
+    <div class= "work">
+        <img src="http://lorempixel.com/output/technics-q-c-400-200-2.jpg"
+        class="author-image" alt="RPG Game">
+        <h3>RPG Game</h3> 
+    </div>
+
+    <div class= "work">
+            <img src="http://lorempixel.com/output/technics-q-c-400-200-3.jpg"
+            class="author-image" alt="Trivia">
+            <h3>Trivia Game</h3>
+    </div>
+
+    <div class= "work">
+                <img src="http://lorempixel.com/output/technics-q-c-400-200-4.jpg"
+                class="author-image" alt="Rutgers info Widget">
+                <h3>Rutgers Info Widget</h3>
+    </div>   
             
-    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-            <div class="page-header">
-               <h1>Portfolio</h1>
-               <p>View my portfolio, as well as my other projects and connect with me on Github!</p>
-           </div>   
-           </div>
-                  
-           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h1 class="panel-title">Connect with Me</h1>
-                          </div>
-                          <div class="panel-body text-center">
-                               <a href="https://github.com/AMills3" target="_blank">
-                                  <img src="https://image.flaticon.com/icons/svg/25/25231.svg"></a>
-                                                         
-                              </div>
-                          </div>
-                          </div>
+    <div class= "work">
+             <img src="http://lorempixel.com/output/technics-q-c-400-200-5.jpg"
+             class="author-image" alt="Rock Paper Scissors">
+             <h3>Rock Paper Scissors</h3>
+    </div>  
+</div>          
 
-          
+
+</section>
+
+<section class= "sidebar">
+    <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="https://github.com/AMills3" target="_blank">
+            <img src="./assets/images/if_github_square_107105.png" 
+            class="social" alt="Github"></a>
     
-    <nav class="navbar navbar-default navbar-fixed-bottom color">
-        <div class="container">
-          <div class="row">
-              <div class="col-lg-12">
-                
-              </div>
-          </div>  
-        </div>
-      </nav>
+    </div>
+</section>
 
+
+<footer>
+    <div class="container">
+        &copy; Copyright 2019 Adam Miller
+    </div>
+</footer>
+    
 </body>
-
-
 </html>
